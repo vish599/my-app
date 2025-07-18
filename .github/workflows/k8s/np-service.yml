@@ -15,3 +15,7 @@ spec:
     name: http
   selector:
     app: my-app
+
+
+# kubectl port-forward service/my-app-service 8080:80
+# kubectl port-forward deployment/my-app 8080:3000
